@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-/**  returns the response of the request, this is standard for all requests in this codebase.
+/**  
+    returns the response of the request, this is standard for all requests in this codebase.
     the uid can either be a username or a password. this conforms to the requirements of the backend.
 */
 const getUser = async (uid ='', logResponse = false, setError = (errorMessage) => {}) => {    

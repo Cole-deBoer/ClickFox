@@ -11,6 +11,9 @@ import SignIn from './Views/SignIn'; // Import SignIn component
 import About from './Views/About';
 
 import { Route, Routes } from 'react-router-dom';
+import PrivacyPolicy from './Views/PrivacyPolicy';
+import TermsAndConditions from './Views/TermsAndConditions';
+import Disclaimer from './Views/Disclaimer';
 
 
 const App = () => {
@@ -29,6 +32,9 @@ const App = () => {
             <Route path="/profile" element={<ProfileView/>}/>
             <Route path="/leaderboard" element={<LeaderboardView/>}/>
             <Route path="/about" element={<About/>}/>
+            <Route path="/privacy-policy" element={<PrivacyPolicy/>}/>
+            <Route path="/terms-and-conditions" element={<TermsAndConditions/>}/>
+            <Route path="/disclaimer" element={<Disclaimer/>}/>
           </Routes>
         </div>
 
